@@ -1,0 +1,32 @@
+.skill-stack {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+    row-gap: 50px;
+}
+
+.skill-stack li {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 250ms ease-out;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+
+.skill-stack li i {
+    font-size: 2.5rem;
+    color: #434343;
+    transition: 250ms ease-out;
+}
+
+.skill-stack li i:hover {
+    color: #FFC901;
+}
+
+.skill-stack li p {
+    margin-top: 15px;
+}

@@ -1,0 +1,42 @@
+.about {
+    margin-top: 50px;
+    display: flex;
+    max-width: 100vw;
+    height: 450px;
+}
+
+.profile-photo {
+    background-image: url('file:/c:/users/andre/documents/junoCollege/portfolio-v2/styles/assets/profile.jpg');
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about-container {
+    width: 50%;
+    background-color: #FFC901;
+}
+
+.about-title,
+.contact-title  {
+    font-size: 1.5em;
+    font-family: 'Times New Roman';
+}
+
+.about-text {
+    padding: 32px;
+}
+
+.nerd-herd {
+    font-family: 'caveat';
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.contact-me {
+    padding: 32px;
+    width: 50%;
+    background-color: #0E0E0E;
+    color: #F6F6F6;
+}

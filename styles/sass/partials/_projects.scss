@@ -1,0 +1,63 @@
+.projects {
+    text-align: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.projects h2 {
+    font-size: 3em;
+}
+
+.project-showcase {
+    flex-wrap: nowrap;
+}
+
+.willow {
+    display: flex;
+}
+
+.project-image {
+    width: 50%;
+}
+
+.willow img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-summary {
+    margin-left: 50px;
+    text-align: left;
+    width: 50%;
+}
+
+.project-summary p {
+    line-height: 25px;;
+}
+
+.project-summary h3 {
+    font-size: 1.7em;
+    display: inline-block;
+}
+
+.project-summary ul {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+.project-summary ul li {
+    margin: 0 10px;
+}
+
+.project-links ul {
+    margin-top: 10px;
+}
+
+.project-links a:hover {
+    background-color: #000;
+    color: #FFC901;
+    transition: 250ms ease;
+}

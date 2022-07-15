@@ -1,0 +1,50 @@
+// HEADER STYLE
+header {
+    height: 75vh;
+    margin-top: 50px;
+}
+
+.header-intro {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.header-intro h1 {
+    letter-spacing: 2px;
+}
+
+.header-text {
+    line-height: 30px;
+    font-size: 1.1em;
+    width: 90%;
+}
+
+.small-text {
+    color: #FFC901;
+    font-family: 'caveat';
+    font-size: 1.2em;
+}
+
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation: animate 0.9s infinite;
+}
+
+.scroll-down i {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+@keyframes animate {
+    0% {
+        margin-top: 0%;
+    }
+    50% {
+        margin-top: 1%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
